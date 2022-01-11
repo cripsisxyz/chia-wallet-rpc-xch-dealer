@@ -1,0 +1,16 @@
+---
+rpc_connector:
+  host: "localhost"
+  port: 9256
+  private_wallet_cert_path: "~/.chia/mainnet/config/ssl/wallet/private_wallet.crt"
+  private_wallet_key_path: "~/.chia/mainnet/config/ssl/wallet/private_wallet.key"
+
+dealer:
+  source_wallet:
+    id: 1
+    distribute_percentage_of_total: 0.1
+    fee: 0
+  destination_wallets:
+    - name: "iv-vz"
+      address: "xch1vt3g694eclvcjmrj8mq83vtgrva9sw0qdz34muxrqjh5y5fzq6vq89n605"
+      distribution_percentage: 100.0
